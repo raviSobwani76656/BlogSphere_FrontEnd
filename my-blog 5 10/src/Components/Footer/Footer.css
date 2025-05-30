@@ -1,0 +1,77 @@
+/* Footer container - full width */
+.minimal-footer {
+    position: relative;
+    width: 100vw;
+    /* Full viewport width */
+    left: 50%;
+    /* Centering technique */
+    right: 50%;
+    /* Centering technique */
+    margin-left: -50vw;
+    /* Offset for centering */
+    margin-right: -50vw;
+    /* Offset for centering */
+    text-align: center;
+    margin-top: 770px;
+    font-size: 13px;
+    padding: 30px 20px;
+    color: #ffffff;
+    background-color: #5F4C4C;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Inner footer container for content */
+.footer-container {
+    max-width: 1200px;
+    /* Optional: constrain content width */
+    width: 100%;
+    margin: 0 auto;
+    /* Center content */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Spacing classes remain the same */
+.footer-large-gap {
+    margin-top: 220px;
+}
+
+.footer-small-gap {
+    margin-top: 50px;
+}
+
+/* Footer sections */
+.footer-section {
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .minimal-footer {
+        padding: 20px 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .footer-large-gap,
+    .footer-small-gap {
+        margin-top: 30px;
+    }
+}

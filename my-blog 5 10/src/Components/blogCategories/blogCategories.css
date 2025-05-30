@@ -1,0 +1,16 @@
+.CategoryList {
+    display: flex;
+    flex-direction: column;
+}
+
+.allButton {
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    background-color: #5F4C4C;
+}
+
+.categoriesButton {
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    background-color: #5F4C4C;
+}
